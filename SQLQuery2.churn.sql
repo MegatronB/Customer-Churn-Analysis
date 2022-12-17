@@ -149,7 +149,7 @@ WHERE [Internet Service] = 'No'
 
 
 
-/*Monthly Cost by internet Service*/
+/*Average Monthly Cost by internet Service*/
 
 SELECT AVG ([Monthly Charges(USD)]) AS DSL_AVG_Monthly_Cost
 FROM [Customer Churn Data]..['WA_Fn-UseC_-Telco-Customer-Chur$']
